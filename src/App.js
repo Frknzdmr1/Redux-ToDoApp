@@ -22,7 +22,7 @@ function App() {
       <div style={{ display: "flex" }}>
         <Input onChange={handleChange} value={inputValue}
         />
-        <Button color='primary' onClick={handleClick}>Add new todo</Button>
+        <Button color='primary' onClick={handleClick}>Add Task</Button>
       </div>
       <Todo />
 
